@@ -14,12 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*btnEnterBabymetal.setOnClickListener {
-            Toast.makeText(this, "opening main menu..", Toast.LENGTH_SHORT).show()
-            Intent(this, MainMenuActivity::class.java).also {
-                startActivity(it)
-            }
-        }*/
+        //hello
 
         btnEnterBabymetal.setOnClickListener {
             Toast.makeText(this, "opening main menu..", Toast.LENGTH_SHORT).show()
