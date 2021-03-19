@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Babymetal Death</string>
+    <string name="babymetal_first_album">Babymetal [2014]</string>
+    <string name="babymetal_second_album">Metal Resistance [2016]</string>
+    <string name="babymetal_third_album">Metal Galaxy [2019]</string>
+    <string name="back_button">Back</string>
+    <string name="title_babymetal_albums"><u>Babymetal Albums</u></string>
+    <string name="songs_babymetal_album">
+        1. Babymetal Death \n
+        2. Megitsune \n
+        3. Gimme Chocolate!! \n
+        4. Iine! \n
+        5. Akatsuki \n
+        6. Doki Doki Morning \n
+        7. Onedari Daisakusen \n
+        8. Song 4 \n
+        9. Uki Uki Midnight \n
+        10. Catch me if you can \n
+        11. Rondo of Nightmare \n
+        12. HeadBangeeeeerrrrr!!!!! \n
+        13. Ijime,Dame,Zettai \n
+        14. Road of Resistance \n
+    </string>
+
+</resources>

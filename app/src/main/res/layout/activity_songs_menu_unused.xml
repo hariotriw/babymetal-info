@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context="com.wowovan.babymetaldeath.SongsMenuActivity">
+
+        <TextView
+            android:id="@+id/tvBabymetalAlbum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_babymetal_albums"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Space
+            android:id="@+id/spaceTop"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvBabymetalAlbum"
+            tools:layout_editor_absoluteX="-16dp" />
+
+        <Space
+            android:id="@+id/spaceSatu"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvSongFirst"
+            tools:layout_editor_absoluteX="-16dp" />
+
+        <Space
+            android:id="@+id/spaceDua"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/ivAlbumSecond"
+            tools:layout_editor_absoluteX="-16dp" />
+
+
+        <TextView
+            android:id="@+id/tvAlbumFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/babymetal_first_album"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/ivAlbumFirst"
+            app:layout_constraintTop_toBottomOf="@+id/spaceTop" />
+
+        <TextView
+            android:id="@+id/tvAlbumSecond"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/babymetal_second_album"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/ivAlbumSecond"
+            app:layout_constraintTop_toBottomOf="@+id/spaceSatu" />
+
+        <TextView
+            android:id="@+id/tvAlbumThird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/babymetal_third_album"
+            android:textSize="20sp"
+            app:layout_constraintStart_toEndOf="@+id/ivAlbumThird"
+            app:layout_constraintTop_toBottomOf="@+id/spaceDua" />
+
+        <ImageView
+            android:id="@+id/ivAlbumFirst"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/album_babymetal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spaceTop" />
+
+        <ImageView
+            android:id="@+id/ivAlbumSecond"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/album_metalresistance"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spaceSatu" />
+
+        <ImageView
+            android:id="@+id/ivAlbumThird"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/album_metalgalaxy"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spaceDua" />
+
+
+        <TextView
+            android:id="@+id/tvSongFirst"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="104dp"
+            android:ellipsize="end"
+            android:text="@string/songs_babymetal_album"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/spaceSatu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/ivAlbumFirst"
+            app:layout_constraintTop_toBottomOf="@+id/tvAlbumFirst" />
+
+    <Button
+        android:id="@+id/btnAlbumKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
